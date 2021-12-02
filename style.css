@@ -1,0 +1,36 @@
+/*websites used are
+    namecheap ( domain)
+    netlify( deploy)
+*/
+/*animation*/
+
+ 
+/* CSS RESET*/
+
+.portrait {
+    background-image : url(background.jpg);
+    /* background-position : center; */
+    /* padding-top : 56.25%; 16 : 9 비율 */
+    
+}
+
+body{
+    font-family: "Trirong", serif;
+
+}
+@media ( min-width : 768px) {
+    .portrait{
+        background-size : contain;
+        position:relative;
+        left : 0;
+        top : 0;
+        width : 120vw;
+        height : 50vh;
+        padding : 0;
+    }
+
+    .profile {
+        /* margin-top : 50vh; */
+    }
+
+}
